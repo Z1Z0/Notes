@@ -60,7 +60,6 @@
 				E19160FF2706EC9900EFC56F /* Controller */,
 				E19160FE2706EC4C00EFC56F /* ViewModel */,
 				E19161012706ED7200EFC56F /* Others */,
-				E151D3C32706E5F40032444E /* LaunchScreen.storyboard */,
 				E151D3BE2706E5F30032444E /* Notes.xcdatamodeld */,
 			);
 			path = Notes;
@@ -108,6 +107,7 @@
 			children = (
 				E151D3C12706E5F40032444E /* Assets.xcassets */,
 				E151D3C62706E5F40032444E /* Info.plist */,
+				E151D3C32706E5F40032444E /* LaunchScreen.storyboard */,
 			);
 			path = Others;
 			sourceTree = "<group>";
