@@ -2,7 +2,7 @@
 //  Note+CoreDataProperties.swift
 //  Notes
 //
-//  Created by Ahmed Abd Elaziz on 01/10/2021.
+//  Created by Ahmed Abd Elaziz on 12/10/2021.
 //
 //
 
@@ -16,9 +16,9 @@ extension Note {
         return NSFetchRequest<Note>(entityName: "Note")
     }
 
-    @NSManaged public var noteTitle: String?
     @NSManaged public var noteDescription: String?
-    @NSManaged public var noteDate: Date?
+    @NSManaged public var noteTitle: String?
+    @NSManaged public var noteColor: String?
 
 }
 

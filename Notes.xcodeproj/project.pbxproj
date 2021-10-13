@@ -7,20 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1197D46270DCA0F00C8D29B /* ColorsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1197D45270DCA0F00C8D29B /* ColorsCollectionViewCell.swift */; };
+		E1197D4E270EF6F500C8D29B /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1197D4D270EF6F500C8D29B /* UIView + Extension.swift */; };
+		E13398B32716AFA800CF75B9 /* MyNotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13398B22716AFA800CF75B9 /* MyNotesViewModel.swift */; };
+		E13398B62716B5BA00CF75B9 /* MyNotesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13398B52716B5BA00CF75B9 /* MyNotesDataSource.swift */; };
+		E142C66C2711BAC400CC813B /* UITextView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142C66B2711BAC400CC813B /* UITextView + Extension.swift */; };
 		E14797482707499300C01B0F /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14797462707499300C01B0F /* Note+CoreDataClass.swift */; };
-		E14797492707499300C01B0F /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14797472707499300C01B0F /* Note+CoreDataProperties.swift */; };
+		E147974D270854B500C01B0F /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E147974C270854B500C01B0F /* UIColor + Extension.swift */; };
+		E1479750270864F400C01B0F /* Touche-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E147974F270864F400C01B0F /* Touche-Regular.ttf */; };
+		E1479752270864FF00C01B0F /* Touche-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1479751270864FF00C01B0F /* Touche-Bold.ttf */; };
+		E14797542708650A00C01B0F /* Touche-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14797532708650A00C01B0F /* Touche-Semibold.ttf */; };
+		E14797562708651400C01B0F /* Touche-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14797552708651400C01B0F /* Touche-Medium.ttf */; };
+		E14797582708652200C01B0F /* Touche-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14797572708652200C01B0F /* Touche-Light.ttf */; };
+		E147975A27086E1100C01B0F /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E147975927086E1100C01B0F /* UIViewController + Extension.swift */; };
+		E147975D27087ECD00C01B0F /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E147975C27087ECD00C01B0F /* NoteTableViewCell.swift */; };
+		E147975F2708811600C01B0F /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E147975E2708811600C01B0F /* UIFont + Extension.swift */; };
 		E151D3B62706E5F30032444E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151D3B52706E5F30032444E /* AppDelegate.swift */; };
 		E151D3B82706E5F30032444E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151D3B72706E5F30032444E /* SceneDelegate.swift */; };
 		E151D3C02706E5F30032444E /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E151D3BE2706E5F30032444E /* Notes.xcdatamodeld */; };
 		E151D3C22706E5F40032444E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E151D3C12706E5F40032444E /* Assets.xcassets */; };
 		E151D3C52706E5F40032444E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E151D3C32706E5F40032444E /* LaunchScreen.storyboard */; };
+		E16ED05B2715A81200759033 /* UITableViewCell + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16ED05A2715A81200759033 /* UITableViewCell + Extension.swift */; };
+		E16ED05E2715BAA000759033 /* AddNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16ED05D2715BAA000759033 /* AddNoteViewModel.swift */; };
+		E16ED0602715CEB600759033 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16ED05F2715CEB600759033 /* Note+CoreDataProperties.swift */; };
 		E1837CC22706F36300643EA8 /* MyNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1837CC12706F36300643EA8 /* MyNotesView.swift */; };
 		E1837CC42706F38E00643EA8 /* MyNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1837CC32706F38E00643EA8 /* MyNotesViewController.swift */; };
+		E1A335E42716E40300C25C9E /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E1A335E32716E40300C25C9E /* IQKeyboardManagerSwift */; };
+		E1D6294D271473CB00210525 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6294C271473CB00210525 /* DynamicValue.swift */; };
+		E1D6294F2714742C00210525 /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6294E2714742C00210525 /* GenericDataSource.swift */; };
+		E1EE9BC1270AEE3A0051F62E /* MyNotesViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE9BC0270AEE3A0051F62E /* MyNotesViewController + Extension.swift */; };
+		E1EE9BC5270B32DE0051F62E /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE9BC4270B32DE0051F62E /* AddNoteViewController.swift */; };
+		E1EE9BC7270B32E90051F62E /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE9BC6270B32E90051F62E /* AddNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1197D45270DCA0F00C8D29B /* ColorsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1197D4D270EF6F500C8D29B /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		E13398B22716AFA800CF75B9 /* MyNotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesViewModel.swift; sourceTree = "<group>"; };
+		E13398B52716B5BA00CF75B9 /* MyNotesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesDataSource.swift; sourceTree = "<group>"; };
+		E142C66B2711BAC400CC813B /* UITextView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView + Extension.swift"; sourceTree = "<group>"; };
 		E14797462707499300C01B0F /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E14797472707499300C01B0F /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E147974C270854B500C01B0F /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		E147974F270864F400C01B0F /* Touche-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Touche-Regular.ttf"; sourceTree = "<group>"; };
+		E1479751270864FF00C01B0F /* Touche-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Touche-Bold.ttf"; sourceTree = "<group>"; };
+		E14797532708650A00C01B0F /* Touche-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Touche-Semibold.ttf"; sourceTree = "<group>"; };
+		E14797552708651400C01B0F /* Touche-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Touche-Medium.ttf"; sourceTree = "<group>"; };
+		E14797572708652200C01B0F /* Touche-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Touche-Light.ttf"; sourceTree = "<group>"; };
+		E147975927086E1100C01B0F /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		E147975C27087ECD00C01B0F /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		E147975E2708811600C01B0F /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		E151D3B22706E5F30032444E /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E151D3B52706E5F30032444E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E151D3B72706E5F30032444E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +63,16 @@
 		E151D3C12706E5F40032444E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E151D3C42706E5F40032444E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E151D3C62706E5F40032444E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16ED05A2715A81200759033 /* UITableViewCell + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell + Extension.swift"; sourceTree = "<group>"; };
+		E16ED05D2715BAA000759033 /* AddNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewModel.swift; sourceTree = "<group>"; };
+		E16ED05F2715CEB600759033 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E1837CC12706F36300643EA8 /* MyNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesView.swift; sourceTree = "<group>"; };
 		E1837CC32706F38E00643EA8 /* MyNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesViewController.swift; sourceTree = "<group>"; };
+		E1D6294C271473CB00210525 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		E1D6294E2714742C00210525 /* GenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
+		E1EE9BC0270AEE3A0051F62E /* MyNotesViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyNotesViewController + Extension.swift"; sourceTree = "<group>"; };
+		E1EE9BC4270B32DE0051F62E /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		E1EE9BC6270B32E90051F62E /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,12 +80,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A335E42716E40300C25C9E /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1197D47270DDC6900C8D29B /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E1197D45270DCA0F00C8D29B /* ColorsCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E1197D4A270EEF8B00C8D29B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E13398B12716AF8E00CF75B9 /* MyNotes */ = {
+			isa = PBXGroup;
+			children = (
+				E13398B22716AFA800CF75B9 /* MyNotesViewModel.swift */,
+			);
+			path = MyNotes;
+			sourceTree = "<group>";
+		};
+		E13398B42716B58100CF75B9 /* MyNotesDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E13398B52716B5BA00CF75B9 /* MyNotesDataSource.swift */,
+			);
+			path = MyNotesDataSource;
+			sourceTree = "<group>";
+		};
+		E13398B72716B6EF00CF75B9 /* DynamicValue */ = {
+			isa = PBXGroup;
+			children = (
+				E1D6294C271473CB00210525 /* DynamicValue.swift */,
+			);
+			path = DynamicValue;
+			sourceTree = "<group>";
+		};
+		E13398B82716B6F900CF75B9 /* GenericDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E1D6294E2714742C00210525 /* GenericDataSource.swift */,
+			);
+			path = GenericDataSource;
+			sourceTree = "<group>";
+		};
+		E147974A2708545200C01B0F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E1197D4A270EEF8B00C8D29B /* Classes */,
+				E147974E270864C100C01B0F /* Fonts */,
+				E147974B2708549900C01B0F /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E147974B2708549900C01B0F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1A335DC2716DC5200C25C9E /* UIColor */,
+				E1A335DD2716DC5D00C25C9E /* UIFont */,
+				E1A335DF2716DC6F00C25C9E /* UIViewController */,
+				E1A335DE2716DC6800C25C9E /* UIView */,
+				E1A335E02716DC8000C25C9E /* UITextView */,
+				E1A335E12716DC9200C25C9E /* UITableView */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E147974E270864C100C01B0F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E147974F270864F400C01B0F /* Touche-Regular.ttf */,
+				E14797572708652200C01B0F /* Touche-Light.ttf */,
+				E14797552708651400C01B0F /* Touche-Medium.ttf */,
+				E1479751270864FF00C01B0F /* Touche-Bold.ttf */,
+				E14797532708650A00C01B0F /* Touche-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E147975B27087EB300C01B0F /* MyNotesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E147975C27087ECD00C01B0F /* NoteTableViewCell.swift */,
+				E13398B42716B58100CF75B9 /* MyNotesDataSource */,
+			);
+			path = MyNotesTableViewCell;
+			sourceTree = "<group>";
+		};
 		E151D3A92706E5F30032444E = {
 			isa = PBXGroup;
 			children = (
@@ -62,21 +197,30 @@
 		E151D3B42706E5F30032444E /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				E147974A2708545200C01B0F /* Helpers */,
 				E19161002706ED5000EFC56F /* Application */,
 				E19160FB2706EC2700EFC56F /* Model */,
 				E19160FD2706EC4400EFC56F /* View */,
 				E19160FF2706EC9900EFC56F /* Controller */,
 				E19160FE2706EC4C00EFC56F /* ViewModel */,
 				E19161012706ED7200EFC56F /* Others */,
-				E151D3BE2706E5F30032444E /* Notes.xcdatamodeld */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		E16ED05C2715BA8400759033 /* AddNote */ = {
+			isa = PBXGroup;
+			children = (
+				E16ED05D2715BAA000759033 /* AddNoteViewModel.swift */,
+			);
+			path = AddNote;
 			sourceTree = "<group>";
 		};
 		E1837CBF2706F34700643EA8 /* MyNotes */ = {
 			isa = PBXGroup;
 			children = (
 				E1837CC12706F36300643EA8 /* MyNotesView.swift */,
+				E147975B27087EB300C01B0F /* MyNotesTableViewCell */,
 			);
 			path = MyNotes;
 			sourceTree = "<group>";
@@ -85,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				E1837CC32706F38E00643EA8 /* MyNotesViewController.swift */,
+				E1EE9BC0270AEE3A0051F62E /* MyNotesViewController + Extension.swift */,
 			);
 			path = MyNotes;
 			sourceTree = "<group>";
@@ -93,7 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				E14797462707499300C01B0F /* Note+CoreDataClass.swift */,
-				E14797472707499300C01B0F /* Note+CoreDataProperties.swift */,
+				E16ED05F2715CEB600759033 /* Note+CoreDataProperties.swift */,
+				E151D3BE2706E5F30032444E /* Notes.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -102,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				E1837CBF2706F34700643EA8 /* MyNotes */,
+				E1EE9BC3270B32BD0051F62E /* AddNote */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -109,6 +256,10 @@
 		E19160FE2706EC4C00EFC56F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E13398B12716AF8E00CF75B9 /* MyNotes */,
+				E16ED05C2715BA8400759033 /* AddNote */,
+				E13398B72716B6EF00CF75B9 /* DynamicValue */,
+				E13398B82716B6F900CF75B9 /* GenericDataSource */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -117,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				E1837CC02706F35400643EA8 /* MyNotes */,
+				E1EE9BC2270B32B50051F62E /* AddNote */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -140,6 +292,71 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
+		E1A335DC2716DC5200C25C9E /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				E147974C270854B500C01B0F /* UIColor + Extension.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		E1A335DD2716DC5D00C25C9E /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				E147975E2708811600C01B0F /* UIFont + Extension.swift */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		E1A335DE2716DC6800C25C9E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				E1197D4D270EF6F500C8D29B /* UIView + Extension.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		E1A335DF2716DC6F00C25C9E /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E147975927086E1100C01B0F /* UIViewController + Extension.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		E1A335E02716DC8000C25C9E /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				E142C66B2711BAC400CC813B /* UITextView + Extension.swift */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		E1A335E12716DC9200C25C9E /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				E16ED05A2715A81200759033 /* UITableViewCell + Extension.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		E1EE9BC2270B32B50051F62E /* AddNote */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE9BC4270B32DE0051F62E /* AddNoteViewController.swift */,
+			);
+			path = AddNote;
+			sourceTree = "<group>";
+		};
+		E1EE9BC3270B32BD0051F62E /* AddNote */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE9BC6270B32E90051F62E /* AddNoteView.swift */,
+				E1197D47270DDC6900C8D29B /* CollectionViewCell */,
+			);
+			path = AddNote;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +373,9 @@
 			dependencies = (
 			);
 			name = Notes;
+			packageProductDependencies = (
+				E1A335E32716E40300C25C9E /* IQKeyboardManagerSwift */,
+			);
 			productName = Notes;
 			productReference = E151D3B22706E5F30032444E /* Notes.app */;
 			productType = "com.apple.product-type.application";
@@ -184,6 +404,9 @@
 				Base,
 			);
 			mainGroup = E151D3A92706E5F30032444E;
+			packageReferences = (
+				E1A335E22716E40300C25C9E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = E151D3B32706E5F30032444E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -199,7 +422,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E151D3C52706E5F40032444E /* LaunchScreen.storyboard in Resources */,
+				E1479752270864FF00C01B0F /* Touche-Bold.ttf in Resources */,
+				E1479750270864F400C01B0F /* Touche-Regular.ttf in Resources */,
+				E14797562708651400C01B0F /* Touche-Medium.ttf in Resources */,
 				E151D3C22706E5F40032444E /* Assets.xcassets in Resources */,
+				E14797542708650A00C01B0F /* Touche-Semibold.ttf in Resources */,
+				E14797582708652200C01B0F /* Touche-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,12 +438,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16ED05E2715BAA000759033 /* AddNoteViewModel.swift in Sources */,
+				E1EE9BC1270AEE3A0051F62E /* MyNotesViewController + Extension.swift in Sources */,
+				E1197D46270DCA0F00C8D29B /* ColorsCollectionViewCell.swift in Sources */,
+				E147975F2708811600C01B0F /* UIFont + Extension.swift in Sources */,
 				E151D3B62706E5F30032444E /* AppDelegate.swift in Sources */,
-				E14797492707499300C01B0F /* Note+CoreDataProperties.swift in Sources */,
+				E1197D4E270EF6F500C8D29B /* UIView + Extension.swift in Sources */,
+				E147974D270854B500C01B0F /* UIColor + Extension.swift in Sources */,
+				E1D6294D271473CB00210525 /* DynamicValue.swift in Sources */,
+				E13398B62716B5BA00CF75B9 /* MyNotesDataSource.swift in Sources */,
+				E16ED0602715CEB600759033 /* Note+CoreDataProperties.swift in Sources */,
+				E147975D27087ECD00C01B0F /* NoteTableViewCell.swift in Sources */,
 				E151D3B82706E5F30032444E /* SceneDelegate.swift in Sources */,
 				E1837CC22706F36300643EA8 /* MyNotesView.swift in Sources */,
+				E16ED05B2715A81200759033 /* UITableViewCell + Extension.swift in Sources */,
 				E14797482707499300C01B0F /* Note+CoreDataClass.swift in Sources */,
+				E142C66C2711BAC400CC813B /* UITextView + Extension.swift in Sources */,
+				E1EE9BC5270B32DE0051F62E /* AddNoteViewController.swift in Sources */,
+				E13398B32716AFA800CF75B9 /* MyNotesViewModel.swift in Sources */,
+				E147975A27086E1100C01B0F /* UIViewController + Extension.swift in Sources */,
+				E1D6294F2714742C00210525 /* GenericDataSource.swift in Sources */,
 				E1837CC42706F38E00643EA8 /* MyNotesViewController.swift in Sources */,
+				E1EE9BC7270B32E90051F62E /* AddNoteView.swift in Sources */,
 				E151D3C02706E5F30032444E /* Notes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +674,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1A335E22716E40300C25C9E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1A335E32716E40300C25C9E /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1A335E22716E40300C25C9E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E151D3BE2706E5F30032444E /* Notes.xcdatamodeld */ = {

@@ -8,10 +8,12 @@
 import Foundation
 import UIKit
 
-class MyNotesViewController: UIViewController {
+class MyNotesViewController: UIViewController, ButtonDelegate {
     
+    let dataSource = MyNotesDataSource()
+
     lazy var mainView: MyNotesView = {
-        let view = MyNotesView(frame: self.view.frame)
+        let view = MyNotesView(frame: self.view.frame, delegate: self)
         return view
     }()
     
@@ -22,6 +24,24 @@ class MyNotesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupNavigationControllerWithLargeTitle("My note")
+        setupSearchController()
+        mainView.viewModel.fetchNotes()
+        dataSource.data.addAndNotify(observer: self) { [weak self] in
+            self?.mainView.notesTableView.reloadData()
+        }
+    }
+    
+    func buttonAction() {
+        let vc = AddNoteViewController()
+        self.show(vc, sender: nil)
+    }
+    
+    
     
 }
